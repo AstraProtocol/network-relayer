@@ -9,11 +9,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Cerebellum-Network/ChainBridge/chains"
-	utils "github.com/Cerebellum-Network/ChainBridge/shared/substrate"
-	"github.com/Cerebellum-Network/chainbridge-utils/blockstore"
-	metrics "github.com/Cerebellum-Network/chainbridge-utils/metrics/types"
-	"github.com/Cerebellum-Network/chainbridge-utils/msg"
+	"github.com/AstraProtocol/ChainBridge/chains"
+	utils "github.com/AstraProtocol/ChainBridge/shared/substrate"
+	"github.com/AstraProtocol/chainbridge-utils/blockstore"
+	metrics "github.com/AstraProtocol/chainbridge-utils/metrics/types"
+	"github.com/AstraProtocol/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 	"github.com/centrifuge/go-substrate-rpc-client/v2/types"
 )
@@ -198,8 +198,8 @@ func (l *listener) processEvents(hash types.Hash) error {
 	e := utils.Events{}
 	err = records.DecodeEventRecords(&meta, &e)
 	if err != nil {
-	    l.log.Warn("Can not decode. Skipping...", "block", hash.Hex(), "error", err)
-        return nil
+		l.log.Warn("Can not decode. Skipping...", "block", hash.Hex(), "error", err)
+		return nil
 	}
 
 	l.handleEvents(e)

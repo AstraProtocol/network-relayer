@@ -7,8 +7,8 @@ import (
 	"math/big"
 	"testing"
 
-	utils "github.com/Cerebellum-Network/ChainBridge/shared/ethereum"
-	"github.com/Cerebellum-Network/chainbridge-utils/msg"
+	utils "github.com/AstraProtocol/ChainBridge/shared/ethereum"
+	"github.com/AstraProtocol/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 	"github.com/ethereum/go-ethereum/common"
 )

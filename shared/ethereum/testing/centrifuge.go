@@ -6,7 +6,7 @@ package ethtest
 import (
 	"testing"
 
-	utils "github.com/Cerebellum-Network/ChainBridge/shared/ethereum"
+	utils "github.com/AstraProtocol/ChainBridge/shared/ethereum"
 	"github.com/ChainSafe/log15"
 	"github.com/ethereum/go-ethereum/common"
 )

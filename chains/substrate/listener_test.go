@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	utils "github.com/Cerebellum-Network/ChainBridge/shared/substrate"
-	subtest "github.com/Cerebellum-Network/ChainBridge/shared/substrate/testing"
-	"github.com/Cerebellum-Network/chainbridge-utils/blockstore"
-	"github.com/Cerebellum-Network/chainbridge-utils/msg"
+	utils "github.com/AstraProtocol/ChainBridge/shared/substrate"
+	subtest "github.com/AstraProtocol/ChainBridge/shared/substrate/testing"
+	"github.com/AstraProtocol/chainbridge-utils/blockstore"
+	"github.com/AstraProtocol/chainbridge-utils/msg"
 	"github.com/centrifuge/go-substrate-rpc-client/v2/types"
 )
 

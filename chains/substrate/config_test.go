@@ -6,7 +6,7 @@ package substrate
 import (
 	"testing"
 
-	"github.com/Cerebellum-Network/chainbridge-utils/core"
+	"github.com/AstraProtocol/chainbridge-utils/core"
 )
 
 func TestParseStartBlock(t *testing.T) {

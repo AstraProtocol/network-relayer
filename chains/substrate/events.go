@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"math/big"
 
-	events "github.com/Cerebellum-Network/chainbridge-substrate-events"
-	"github.com/Cerebellum-Network/chainbridge-utils/msg"
+	events "github.com/AstraProtocol/chainbridge-substrate-events"
+	"github.com/AstraProtocol/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 )
 

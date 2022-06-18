@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Cerebellum-Network/chainbridge-utils/core"
+	"github.com/AstraProtocol/chainbridge-utils/core"
 	"github.com/ethereum/go-ethereum/common"
 )
 

@@ -6,8 +6,8 @@ package utils
 import (
 	"math/big"
 
-	"github.com/Cerebellum-Network/ChainBridge/bindings/ERC721Handler"
-	"github.com/Cerebellum-Network/ChainBridge/bindings/ERC721MinterBurnerPauser"
+	"github.com/AstraProtocol/ChainBridge/bindings/ERC721Handler"
+	"github.com/AstraProtocol/ChainBridge/bindings/ERC721MinterBurnerPauser"
 	"github.com/ethereum/go-ethereum/common"
 )
 

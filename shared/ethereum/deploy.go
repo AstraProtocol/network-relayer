@@ -7,13 +7,13 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/Cerebellum-Network/ChainBridge/bindings/GenericHandler"
+	"github.com/AstraProtocol/ChainBridge/bindings/GenericHandler"
 	"github.com/ethereum/go-ethereum/common"
 
-	bridge "github.com/Cerebellum-Network/ChainBridge/bindings/Bridge"
-	erc20Handler "github.com/Cerebellum-Network/ChainBridge/bindings/ERC20Handler"
-	erc721Handler "github.com/Cerebellum-Network/ChainBridge/bindings/ERC721Handler"
-	"github.com/Cerebellum-Network/chainbridge-utils/keystore"
+	bridge "github.com/AstraProtocol/ChainBridge/bindings/Bridge"
+	erc20Handler "github.com/AstraProtocol/ChainBridge/bindings/ERC20Handler"
+	erc721Handler "github.com/AstraProtocol/ChainBridge/bindings/ERC721Handler"
+	"github.com/AstraProtocol/chainbridge-utils/keystore"
 )
 
 var (

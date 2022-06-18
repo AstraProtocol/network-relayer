@@ -8,8 +8,8 @@ import (
 	"math/big"
 	"testing"
 
-	utils "github.com/Cerebellum-Network/ChainBridge/shared/ethereum"
-	"github.com/Cerebellum-Network/chainbridge-utils/crypto/secp256k1"
+	utils "github.com/AstraProtocol/ChainBridge/shared/ethereum"
+	"github.com/AstraProtocol/chainbridge-utils/crypto/secp256k1"
 )
 
 func NewClient(t *testing.T, endpoint string, kp *secp256k1.Keypair) *utils.Client {

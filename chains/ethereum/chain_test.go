@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	ethtest "github.com/Cerebellum-Network/ChainBridge/shared/ethereum/testing"
-	"github.com/Cerebellum-Network/chainbridge-utils/core"
-	"github.com/Cerebellum-Network/chainbridge-utils/keystore"
-	"github.com/Cerebellum-Network/chainbridge-utils/msg"
+	ethtest "github.com/AstraProtocol/ChainBridge/shared/ethereum/testing"
+	"github.com/AstraProtocol/chainbridge-utils/core"
+	"github.com/AstraProtocol/chainbridge-utils/keystore"
+	"github.com/AstraProtocol/chainbridge-utils/msg"
 	"github.com/ethereum/go-ethereum/common"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 )

@@ -4,10 +4,10 @@
 package ethereum
 
 import (
-	"github.com/Cerebellum-Network/ChainBridge/bindings/Bridge"
-	"github.com/Cerebellum-Network/chainbridge-utils/core"
-	metrics "github.com/Cerebellum-Network/chainbridge-utils/metrics/types"
-	"github.com/Cerebellum-Network/chainbridge-utils/msg"
+	"github.com/AstraProtocol/ChainBridge/bindings/Bridge"
+	"github.com/AstraProtocol/chainbridge-utils/core"
+	metrics "github.com/AstraProtocol/chainbridge-utils/metrics/types"
+	"github.com/AstraProtocol/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 )
 

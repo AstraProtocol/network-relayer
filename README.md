@@ -12,37 +12,10 @@
 ## vNext
 - ...
 
-## v2.4.0
-- Updated chainbridge-utils to v1.1.0
+## v3.0.0
+- Updated chainbridge-utils to v1.2.0
+- Add astra config
 
-## v2.3.2
-- Added min gas price check
-- Updated DefaultGasPrice
-- All undecoded blocks will be skipped
-
-## v2.3.1
-- Block with `System_CodeUpdated` event will be skipped 
-
-## v2.3.0
-- Added condition to prevent excess execution of executeProposal method
-
-## v2.2.0
-- Added ability to disable network scanning
-
-## 2.1.2
-- Fixed health-check endpoint initialization for networks
-
-## 2.1.1
-- Updated `chainbridge-utils`
-- Added DDC custom events
-
-## 2.1.0
-- Removed bytecode check for `genericHandler`
-
-## 2.0.0
-- Changed Lib name to Cerebellum-Network
-- Integrated with chainbridge-substrate-events v2
-- Ingegrated with chainbridge-utils v2
 
 # Contents
 

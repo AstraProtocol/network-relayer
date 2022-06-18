@@ -23,17 +23,17 @@ package ethereum
 import (
 	"math/big"
 
-	bridge "github.com/Cerebellum-Network/ChainBridge/bindings/Bridge"
-	erc20Handler "github.com/Cerebellum-Network/ChainBridge/bindings/ERC20Handler"
-	erc721Handler "github.com/Cerebellum-Network/ChainBridge/bindings/ERC721Handler"
-	"github.com/Cerebellum-Network/ChainBridge/bindings/GenericHandler"
-	connection "github.com/Cerebellum-Network/ChainBridge/connections/ethereum"
-	"github.com/Cerebellum-Network/chainbridge-utils/blockstore"
-	"github.com/Cerebellum-Network/chainbridge-utils/core"
-	"github.com/Cerebellum-Network/chainbridge-utils/crypto/secp256k1"
-	"github.com/Cerebellum-Network/chainbridge-utils/keystore"
-	metrics "github.com/Cerebellum-Network/chainbridge-utils/metrics/types"
-	"github.com/Cerebellum-Network/chainbridge-utils/msg"
+	bridge "github.com/AstraProtocol/ChainBridge/bindings/Bridge"
+	erc20Handler "github.com/AstraProtocol/ChainBridge/bindings/ERC20Handler"
+	erc721Handler "github.com/AstraProtocol/ChainBridge/bindings/ERC721Handler"
+	"github.com/AstraProtocol/ChainBridge/bindings/GenericHandler"
+	connection "github.com/AstraProtocol/ChainBridge/connections/ethereum"
+	"github.com/AstraProtocol/chainbridge-utils/blockstore"
+	"github.com/AstraProtocol/chainbridge-utils/core"
+	"github.com/AstraProtocol/chainbridge-utils/crypto/secp256k1"
+	"github.com/AstraProtocol/chainbridge-utils/keystore"
+	metrics "github.com/AstraProtocol/chainbridge-utils/metrics/types"
+	"github.com/AstraProtocol/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
@@ -131,7 +131,7 @@ func InitializeChain(chainCfg *core.ChainConfig, logger log15.Logger, sysErr cha
 	}
 
 	if chainId != uint8(chainCfg.Id) {
-	    logger.Warn("Bridge chainId and configuration chainId do not match", "bridge", chainId, "configuration", chainCfg.Id)
+		logger.Warn("Bridge chainId and configuration chainId do not match", "bridge", chainId, "configuration", chainCfg.Id)
 	}
 
 	erc20HandlerContract, err := erc20Handler.NewERC20Handler(cfg.erc20HandlerContract, conn.Client())

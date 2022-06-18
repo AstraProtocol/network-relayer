@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Cerebellum-Network/ChainBridge/bindings/Bridge"
-	connection "github.com/Cerebellum-Network/ChainBridge/connections/ethereum"
-	utils "github.com/Cerebellum-Network/ChainBridge/shared/ethereum"
-	"github.com/Cerebellum-Network/chainbridge-utils/keystore"
-	"github.com/Cerebellum-Network/chainbridge-utils/msg"
+	"github.com/AstraProtocol/ChainBridge/bindings/Bridge"
+	connection "github.com/AstraProtocol/ChainBridge/connections/ethereum"
+	utils "github.com/AstraProtocol/ChainBridge/shared/ethereum"
+	"github.com/AstraProtocol/chainbridge-utils/keystore"
+	"github.com/AstraProtocol/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 	"github.com/ethereum/go-ethereum/common"
 )

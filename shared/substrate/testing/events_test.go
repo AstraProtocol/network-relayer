@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Cerebellum-Network/ChainBridge/e2e/substrate"
-	utils "github.com/Cerebellum-Network/ChainBridge/shared/substrate"
+	"github.com/AstraProtocol/ChainBridge/e2e/substrate"
+	utils "github.com/AstraProtocol/ChainBridge/shared/substrate"
 	gsrpc "github.com/centrifuge/go-substrate-rpc-client/v2"
 	"github.com/centrifuge/go-substrate-rpc-client/v2/types"
 )

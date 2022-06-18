@@ -9,11 +9,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Cerebellum-Network/chainbridge-utils/core"
+	"github.com/AstraProtocol/chainbridge-utils/core"
 
-	utils "github.com/Cerebellum-Network/ChainBridge/shared/substrate"
-	metrics "github.com/Cerebellum-Network/chainbridge-utils/metrics/types"
-	"github.com/Cerebellum-Network/chainbridge-utils/msg"
+	utils "github.com/AstraProtocol/ChainBridge/shared/substrate"
+	metrics "github.com/AstraProtocol/chainbridge-utils/metrics/types"
+	"github.com/AstraProtocol/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 	"github.com/centrifuge/go-substrate-rpc-client/v2/types"
 )

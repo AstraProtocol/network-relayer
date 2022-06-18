@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Cerebellum-Network/chainbridge-utils/crypto/secp256k1"
+	"github.com/AstraProtocol/chainbridge-utils/crypto/secp256k1"
 	"github.com/ChainSafe/log15"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	ethcommon "github.com/ethereum/go-ethereum/common"
@@ -139,11 +139,11 @@ func (c *Connection) SafeEstimateGas(ctx context.Context) (*big.Int, error) {
 
 	// Check we aren't exceeding our limit
 	if gasPrice.Cmp(c.maxGasPrice) == 1 {
-	    c.log.Warn("Gas price is above than maximum", "gasPrice", gasPrice.String())
+		c.log.Warn("Gas price is above than maximum", "gasPrice", gasPrice.String())
 		return c.maxGasPrice, nil
 	} else if gasPrice.Cmp(MinGasPrice) == -1 {
-	    c.log.Warn("Gas price is below than minimum", "gasPrice", gasPrice.String())
-	    return DefaultGasPrice, nil
+		c.log.Warn("Gas price is below than minimum", "gasPrice", gasPrice.String())
+		return DefaultGasPrice, nil
 	} else {
 		return gasPrice, nil
 	}

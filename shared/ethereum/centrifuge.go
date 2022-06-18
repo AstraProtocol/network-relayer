@@ -4,7 +4,7 @@
 package utils
 
 import (
-	"github.com/Cerebellum-Network/ChainBridge/bindings/CentrifugeAsset"
+	"github.com/AstraProtocol/ChainBridge/bindings/CentrifugeAsset"
 	"github.com/ethereum/go-ethereum/common"
 )
 

@@ -6,9 +6,9 @@ package utils
 import (
 	"math/big"
 
-	"github.com/Cerebellum-Network/ChainBridge/bindings/ERC20Handler"
-	ERC20 "github.com/Cerebellum-Network/ChainBridge/bindings/ERC20PresetMinterPauser"
-	"github.com/Cerebellum-Network/chainbridge-utils/msg"
+	"github.com/AstraProtocol/ChainBridge/bindings/ERC20Handler"
+	ERC20 "github.com/AstraProtocol/ChainBridge/bindings/ERC20PresetMinterPauser"
+	"github.com/AstraProtocol/chainbridge-utils/msg"
 	"github.com/ethereum/go-ethereum/common"
 )
 
